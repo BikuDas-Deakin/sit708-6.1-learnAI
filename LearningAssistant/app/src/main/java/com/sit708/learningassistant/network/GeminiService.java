@@ -20,7 +20,7 @@ import okhttp3.Response;
 public class GeminiService {
 
     // Replace with your actual Gemini API key
-    private static final String API_KEY = "AIzaSyAFlBFzHoiS4msTUXBEx7MfRIu710-W6T8";
+    private static final String API_KEY = "YOUR_GEMINI_API_KEY_HERE";
     private static final String BASE_URL =
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=";
     private static final MediaType JSON_TYPE = MediaType.get("application/json; charset=utf-8");

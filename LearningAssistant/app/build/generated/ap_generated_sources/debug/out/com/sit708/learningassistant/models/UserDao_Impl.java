@@ -5,6 +5,7 @@ import androidx.annotation.NonNull;
 import androidx.room.EntityInsertionAdapter;
 import androidx.room.RoomDatabase;
 import androidx.room.RoomSQLiteQuery;
+import androidx.room.SharedSQLiteStatement;
 import androidx.room.util.CursorUtil;
 import androidx.room.util.DBUtil;
 import androidx.sqlite.db.SupportSQLiteStatement;
@@ -23,13 +24,15 @@ public final class UserDao_Impl implements UserDao {
 
   private final EntityInsertionAdapter<User> __insertionAdapterOfUser;
 
+  private final SharedSQLiteStatement __preparedStmtOfUpdateTier;
+
   public UserDao_Impl(@NonNull final RoomDatabase __db) {
     this.__db = __db;
     this.__insertionAdapterOfUser = new EntityInsertionAdapter<User>(__db) {
       @Override
       @NonNull
       protected String createQuery() {
-        return "INSERT OR REPLACE INTO `users` (`id`,`username`,`email`,`password`,`phone`,`interests`) VALUES (nullif(?, 0),?,?,?,?,?)";
+        return "INSERT OR REPLACE INTO `users` (`id`,`username`,`email`,`password`,`phone`,`interests`,`tier`) VALUES (nullif(?, 0),?,?,?,?,?,?)";
       }
 
       @Override
@@ -60,6 +63,19 @@ public final class UserDao_Impl implements UserDao {
         } else {
           statement.bindString(6, entity.interests);
         }
+        if (entity.tier == null) {
+          statement.bindNull(7);
+        } else {
+          statement.bindString(7, entity.tier);
+        }
+      }
+    };
+    this.__preparedStmtOfUpdateTier = new SharedSQLiteStatement(__db) {
+      @Override
+      @NonNull
+      public String createQuery() {
+        final String _query = "UPDATE users SET tier = ? WHERE username = ?";
+        return _query;
       }
     };
   }
@@ -73,6 +89,35 @@ public final class UserDao_Impl implements UserDao {
       __db.setTransactionSuccessful();
     } finally {
       __db.endTransaction();
+    }
+  }
+
+  @Override
+  public void updateTier(final String username, final String tier) {
+    __db.assertNotSuspendingTransaction();
+    final SupportSQLiteStatement _stmt = __preparedStmtOfUpdateTier.acquire();
+    int _argIndex = 1;
+    if (tier == null) {
+      _stmt.bindNull(_argIndex);
+    } else {
+      _stmt.bindString(_argIndex, tier);
+    }
+    _argIndex = 2;
+    if (username == null) {
+      _stmt.bindNull(_argIndex);
+    } else {
+      _stmt.bindString(_argIndex, username);
+    }
+    try {
+      __db.beginTransaction();
+      try {
+        _stmt.executeUpdateDelete();
+        __db.setTransactionSuccessful();
+      } finally {
+        __db.endTransaction();
+      }
+    } finally {
+      __preparedStmtOfUpdateTier.release(_stmt);
     }
   }
 
@@ -101,6 +146,7 @@ public final class UserDao_Impl implements UserDao {
       final int _cursorIndexOfPassword = CursorUtil.getColumnIndexOrThrow(_cursor, "password");
       final int _cursorIndexOfPhone = CursorUtil.getColumnIndexOrThrow(_cursor, "phone");
       final int _cursorIndexOfInterests = CursorUtil.getColumnIndexOrThrow(_cursor, "interests");
+      final int _cursorIndexOfTier = CursorUtil.getColumnIndexOrThrow(_cursor, "tier");
       final User _result;
       if (_cursor.moveToFirst()) {
         final String _tmpUsername;
@@ -135,6 +181,11 @@ public final class UserDao_Impl implements UserDao {
         }
         _result = new User(_tmpUsername,_tmpEmail,_tmpPassword,_tmpPhone,_tmpInterests);
         _result.id = _cursor.getInt(_cursorIndexOfId);
+        if (_cursor.isNull(_cursorIndexOfTier)) {
+          _result.tier = null;
+        } else {
+          _result.tier = _cursor.getString(_cursorIndexOfTier);
+        }
       } else {
         _result = null;
       }
@@ -164,6 +215,7 @@ public final class UserDao_Impl implements UserDao {
       final int _cursorIndexOfPassword = CursorUtil.getColumnIndexOrThrow(_cursor, "password");
       final int _cursorIndexOfPhone = CursorUtil.getColumnIndexOrThrow(_cursor, "phone");
       final int _cursorIndexOfInterests = CursorUtil.getColumnIndexOrThrow(_cursor, "interests");
+      final int _cursorIndexOfTier = CursorUtil.getColumnIndexOrThrow(_cursor, "tier");
       final User _result;
       if (_cursor.moveToFirst()) {
         final String _tmpUsername;
@@ -198,6 +250,11 @@ public final class UserDao_Impl implements UserDao {
         }
         _result = new User(_tmpUsername,_tmpEmail,_tmpPassword,_tmpPhone,_tmpInterests);
         _result.id = _cursor.getInt(_cursorIndexOfId);
+        if (_cursor.isNull(_cursorIndexOfTier)) {
+          _result.tier = null;
+        } else {
+          _result.tier = _cursor.getString(_cursorIndexOfTier);
+        }
       } else {
         _result = null;
       }

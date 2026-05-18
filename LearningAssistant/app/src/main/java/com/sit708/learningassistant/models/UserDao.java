@@ -7,6 +7,7 @@ import androidx.room.Query;
 
 @Dao
 public interface UserDao {
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     void insert(User user);
 
@@ -15,4 +16,8 @@ public interface UserDao {
 
     @Query("SELECT * FROM users WHERE username = :username LIMIT 1")
     User findByUsername(String username);
+
+    /** Update the subscription tier after a successful purchase. Added in Task 10.1. */
+    @Query("UPDATE users SET tier = :tier WHERE username = :username")
+    void updateTier(String username, String tier);
 }

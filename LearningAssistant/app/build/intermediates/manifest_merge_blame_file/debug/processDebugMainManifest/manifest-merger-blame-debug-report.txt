@@ -15,168 +15,222 @@
 12-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:5:5-79
 12-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:5:22-76
 13
-14    <permission
-14-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-15        android:name="com.sit708.learningassistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14    <uses-feature
+14-->[com.google.android.gms:play-services-maps:18.0.2] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f5a2566ac123000fc7d0bec67696d2bc/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+15        android:glEsVersion="0x00020000"
+15-->[com.google.android.gms:play-services-maps:18.0.2] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f5a2566ac123000fc7d0bec67696d2bc/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+16        android:required="true" />
+16-->[com.google.android.gms:play-services-maps:18.0.2] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f5a2566ac123000fc7d0bec67696d2bc/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
 17
-18    <uses-permission android:name="com.sit708.learningassistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+18    <queries>
+18-->[com.google.android.gms:play-services-maps:18.0.2] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f5a2566ac123000fc7d0bec67696d2bc/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
 19
-20    <application
-20-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:7:5-50:19
-21        android:allowBackup="true"
-21-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:8:9-35
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-23        android:debuggable="true"
-24        android:extractNativeLibs="false"
-25        android:icon="@mipmap/ic_launcher"
-25-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:9:9-43
-26        android:label="@string/app_name"
-26-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:10:9-41
-27        android:networkSecurityConfig="@xml/network_security_config"
-27-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:14:9-69
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:11:9-54
-29        android:supportsRtl="true"
-29-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:12:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.LearningAssistant" >
-31-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:13:9-55
-32        <activity
-32-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:16:9-24:20
-33            android:name="com.sit708.learningassistant.activities.SplashActivity"
-33-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:17:13-54
-34            android:exported="true"
-34-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:18:13-36
-35            android:theme="@style/Theme.LearningAssistant.Splash" >
-35-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:19:13-66
-36            <intent-filter>
-36-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:20:13-23:29
-37                <action android:name="android.intent.action.MAIN" />
-37-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:21:17-69
-37-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:21:25-66
-38
-39                <category android:name="android.intent.category.LAUNCHER" />
-39-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:22:17-77
-39-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:22:27-74
-40            </intent-filter>
-41        </activity>
-42        <activity
-42-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:26:9-28:40
-43            android:name="com.sit708.learningassistant.activities.LoginActivity"
-43-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:27:13-53
-44            android:exported="false" />
-44-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:28:13-37
-45        <activity
-45-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:30:9-32:40
-46            android:name="com.sit708.learningassistant.activities.RegisterActivity"
-46-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:31:13-56
-47            android:exported="false" />
-47-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:32:13-37
-48        <activity
-48-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:34:9-36:40
-49            android:name="com.sit708.learningassistant.activities.InterestsActivity"
-49-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:35:13-57
-50            android:exported="false" />
-50-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:36:13-37
-51        <activity
-51-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:38:9-40:40
-52            android:name="com.sit708.learningassistant.activities.MainActivity"
-52-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:39:13-52
-53            android:exported="false" />
-53-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:40:13-37
-54        <activity
-54-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:42:9-44:40
-55            android:name="com.sit708.learningassistant.activities.QuizActivity"
-55-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:43:13-52
-56            android:exported="false" />
-56-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:44:13-37
-57        <activity
-57-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:46:9-48:40
-58            android:name="com.sit708.learningassistant.activities.ResultsActivity"
-58-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:47:13-55
-59            android:exported="false" />
-59-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:48:13-37
-60
-61        <service
-61-->[androidx.room:room-runtime:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/fb16c9c2735d47120834c0f771e9c004/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
-62            android:name="androidx.room.MultiInstanceInvalidationService"
-62-->[androidx.room:room-runtime:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/fb16c9c2735d47120834c0f771e9c004/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
-63            android:directBootAware="true"
-63-->[androidx.room:room-runtime:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/fb16c9c2735d47120834c0f771e9c004/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+20        <!-- Needs to be explicitly declared on Android R+ -->
+21        <package android:name="com.google.android.apps.maps" />
+21-->[com.google.android.gms:play-services-maps:18.0.2] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f5a2566ac123000fc7d0bec67696d2bc/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+21-->[com.google.android.gms:play-services-maps:18.0.2] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f5a2566ac123000fc7d0bec67696d2bc/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+22    </queries>
+23
+24    <permission
+24-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+25        android:name="com.sit708.learningassistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+25-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+26        android:protectionLevel="signature" />
+26-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+27
+28    <uses-permission android:name="com.sit708.learningassistant.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+28-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+28-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+29
+30    <application
+30-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:7:5-57:19
+31        android:allowBackup="true"
+31-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:8:9-35
+32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+32-->[androidx.core:core:1.9.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/00eeb73d329f60914ee7cf1a9183d8d3/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:icon="@mipmap/ic_launcher"
+35-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:9:9-43
+36        android:label="@string/app_name"
+36-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:10:9-41
+37        android:networkSecurityConfig="@xml/network_security_config"
+37-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:14:9-69
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:11:9-54
+39        android:supportsRtl="true"
+39-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:12:9-35
+40        android:testOnly="true"
+41        android:theme="@style/Theme.LearningAssistant" >
+41-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:13:9-55
+42        <meta-data
+42-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:15:9-17:36
+43            android:name="com.google.android.gms.wallet.api.enabled"
+43-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:16:13-69
+44            android:value="true" />
+44-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:17:13-33
+45
+46        <activity
+46-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:19:9-27:20
+47            android:name="com.sit708.learningassistant.activities.SplashActivity"
+47-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:20:13-54
+48            android:exported="true"
+48-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:21:13-36
+49            android:theme="@style/Theme.LearningAssistant.Splash" >
+49-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:22:13-66
+50            <intent-filter>
+50-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:23:13-26:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:24:17-69
+51-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:24:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:25:17-77
+53-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:25:27-74
+54            </intent-filter>
+55        </activity>
+56        <activity
+56-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:29:9-31:40
+57            android:name="com.sit708.learningassistant.activities.LoginActivity"
+57-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:30:13-53
+58            android:exported="false" />
+58-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:31:13-37
+59        <activity
+59-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:33:9-35:40
+60            android:name="com.sit708.learningassistant.activities.RegisterActivity"
+60-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:34:13-56
+61            android:exported="false" />
+61-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:35:13-37
+62        <activity
+62-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:37:9-39:40
+63            android:name="com.sit708.learningassistant.activities.InterestsActivity"
+63-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:38:13-57
 64            android:exported="false" />
-64-->[androidx.room:room-runtime:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/fb16c9c2735d47120834c0f771e9c004/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
-65
-66        <provider
-66-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-67            android:name="androidx.startup.InitializationProvider"
-67-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-68            android:authorities="com.sit708.learningassistant.androidx-startup"
-68-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-69            android:exported="false" >
-69-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-70            <meta-data
-70-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-71                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-71-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-72                android:value="androidx.startup" />
-72-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-73            <meta-data
-73-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/9847b446801a5990c766dd1de70e77c0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
-74                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-74-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/9847b446801a5990c766dd1de70e77c0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
-75                android:value="androidx.startup" />
-75-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/9847b446801a5990c766dd1de70e77c0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
-76            <meta-data
-76-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
-77                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-77-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
-78                android:value="androidx.startup" />
-78-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
-79        </provider>
-80
-81        <receiver
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
-82            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
-83            android:directBootAware="false"
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
-84            android:enabled="true"
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
-85            android:exported="true"
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
-86            android:permission="android.permission.DUMP" >
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
-87            <intent-filter>
-87-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
-88                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
-89            </intent-filter>
-90            <intent-filter>
-90-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
-91                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
-92            </intent-filter>
-93            <intent-filter>
-93-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
-94                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
-95            </intent-filter>
-96            <intent-filter>
-96-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
-97                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
-97-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
-98            </intent-filter>
-99        </receiver>
-100    </application>
-101
-102</manifest>
+64-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:39:13-37
+65        <activity
+65-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:41:9-43:40
+66            android:name="com.sit708.learningassistant.activities.MainActivity"
+66-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:42:13-52
+67            android:exported="false" />
+67-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:43:13-37
+68        <activity
+68-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:45:9-47:40
+69            android:name="com.sit708.learningassistant.activities.QuizActivity"
+69-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:46:13-52
+70            android:exported="false" />
+70-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:47:13-37
+71        <activity
+71-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:49:9-51:40
+72            android:name="com.sit708.learningassistant.activities.ResultsActivity"
+72-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:50:13-55
+73            android:exported="false" />
+73-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:51:13-37
+74        <activity android:name="com.sit708.learningassistant.activities.ProfileActivity" />
+74-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:53:9-64
+74-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:53:19-61
+75        <activity android:name="com.sit708.learningassistant.activities.HistoryActivity" />
+75-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:54:9-64
+75-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:54:19-61
+76        <activity android:name="com.sit708.learningassistant.activities.UpgradeActivity" />
+76-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:55:9-64
+76-->/Users/bisheshwardas/Documents/MOB/LearningAssistant/app/src/main/AndroidManifest.xml:55:19-61
+77
+78        <service
+78-->[androidx.room:room-runtime:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/fb16c9c2735d47120834c0f771e9c004/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+79            android:name="androidx.room.MultiInstanceInvalidationService"
+79-->[androidx.room:room-runtime:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/fb16c9c2735d47120834c0f771e9c004/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+80            android:directBootAware="true"
+80-->[androidx.room:room-runtime:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/fb16c9c2735d47120834c0f771e9c004/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+81            android:exported="false" /> <!-- Needs to be explicitly declared on P+ -->
+81-->[androidx.room:room-runtime:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/fb16c9c2735d47120834c0f771e9c004/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+82        <uses-library
+82-->[com.google.android.gms:play-services-maps:18.0.2] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f5a2566ac123000fc7d0bec67696d2bc/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+83            android:name="org.apache.http.legacy"
+83-->[com.google.android.gms:play-services-maps:18.0.2] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f5a2566ac123000fc7d0bec67696d2bc/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+84            android:required="false" />
+84-->[com.google.android.gms:play-services-maps:18.0.2] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f5a2566ac123000fc7d0bec67696d2bc/transformed/jetified-play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+85
+86        <activity
+86-->[com.google.android.gms:play-services-base:18.5.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f37bd010c31c7ed200130b9fbabc6908/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+87            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+87-->[com.google.android.gms:play-services-base:18.5.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f37bd010c31c7ed200130b9fbabc6908/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+88            android:exported="false"
+88-->[com.google.android.gms:play-services-base:18.5.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f37bd010c31c7ed200130b9fbabc6908/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+89            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+89-->[com.google.android.gms:play-services-base:18.5.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f37bd010c31c7ed200130b9fbabc6908/transformed/jetified-play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+90
+91        <meta-data
+91-->[com.google.android.gms:play-services-basement:18.4.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/153aa9f62a67ce73c5bad10bdac75f6b/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+92            android:name="com.google.android.gms.version"
+92-->[com.google.android.gms:play-services-basement:18.4.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/153aa9f62a67ce73c5bad10bdac75f6b/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+93            android:value="@integer/google_play_services_version" />
+93-->[com.google.android.gms:play-services-basement:18.4.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/153aa9f62a67ce73c5bad10bdac75f6b/transformed/jetified-play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+94
+95        <provider
+95-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+96            android:name="androidx.startup.InitializationProvider"
+96-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+97            android:authorities="com.sit708.learningassistant.androidx-startup"
+97-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+98            android:exported="false" >
+98-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+99            <meta-data
+99-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+100                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+100-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+101                android:value="androidx.startup" />
+101-->[androidx.emoji2:emoji2:1.2.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/e6824132ad21a51f5bd68e19997dca65/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+102            <meta-data
+102-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/9847b446801a5990c766dd1de70e77c0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+103                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+103-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/9847b446801a5990c766dd1de70e77c0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+104                android:value="androidx.startup" />
+104-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/bisheshwardas/.gradle/caches/8.13/transforms/9847b446801a5990c766dd1de70e77c0/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+105            <meta-data
+105-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+106                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+106-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+107                android:value="androidx.startup" />
+107-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+108        </provider>
+109
+110        <receiver
+110-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+111            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+111-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+112            android:directBootAware="false"
+112-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+113            android:enabled="true"
+113-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+114            android:exported="true"
+114-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+115            android:permission="android.permission.DUMP" >
+115-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+116            <intent-filter>
+116-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+117                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+117-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+118            </intent-filter>
+119            <intent-filter>
+119-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+120                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+121            </intent-filter>
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+123                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+123-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+126                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+126-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/bisheshwardas/.gradle/caches/8.13/transforms/f31e9d1da53ef96c37d73819271a7b63/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+127            </intent-filter>
+128        </receiver>
+129    </application>
+130
+131</manifest>

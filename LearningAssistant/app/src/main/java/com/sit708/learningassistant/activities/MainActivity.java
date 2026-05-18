@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.google.android.material.button.MaterialButton;
 import com.sit708.learningassistant.R;
 import com.sit708.learningassistant.adapters.TaskAdapter;
 import com.sit708.learningassistant.models.LearningTask;
@@ -16,6 +17,9 @@ import com.sit708.learningassistant.utils.SessionManager;
 
 import java.util.List;
 
+/**
+ * Task 10.1 update: added Profile button that launches ProfileActivity.
+ */
 public class MainActivity extends AppCompatActivity implements TaskAdapter.OnTaskClickListener {
 
     private SessionManager session;
@@ -39,6 +43,13 @@ public class MainActivity extends AppCompatActivity implements TaskAdapter.OnTas
         rv.setLayoutManager(new LinearLayoutManager(this));
         TaskAdapter adapter = new TaskAdapter(tasks, this);
         rv.setAdapter(adapter);
+
+        // ── Task 10.1: Profile button ──
+        MaterialButton btnProfile = findViewById(R.id.btnProfile);
+        btnProfile.setOnClickListener(v -> {
+            startActivity(new Intent(this, ProfileActivity.class));
+            overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
+        });
 
         // Logout
         TextView tvLogout = findViewById(R.id.tvLogout);

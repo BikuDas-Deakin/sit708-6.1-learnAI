@@ -20,7 +20,7 @@ import okhttp3.Response;
 public class GeminiService {
 
     // Replace with your actual Gemini API key
-    private static final String API_KEY = "YOUR_GEMINI_API_KEY_HERE";
+    private static final String API_KEY = "AIzaSyDL4CT4IWxO57BenJhAKn5lovM0nLQmjq8";
     private static final String BASE_URL =
             "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=";
     private static final MediaType JSON_TYPE = MediaType.get("application/json; charset=utf-8");
@@ -60,6 +60,9 @@ public class GeminiService {
                 + "Provide a clear, encouraging explanation (3-4 sentences) of why the correct "
                 + "answer is right and what the student should understand.";
 
+        callGemini(prompt, callback);
+    }
+    public void generateSummary(String prompt, GeminiCallback callback) {
         callGemini(prompt, callback);
     }
 

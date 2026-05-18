@@ -58,6 +58,7 @@
                 android:textSize="12sp" />
         </LinearLayout>
 
+        <!-- Right side: avatar + Profile button + Logout -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -73,14 +74,26 @@
                 app:civ_border_color="@color/white"
                 app:civ_border_width="2dp" />
 
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnProfile"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                android:layout_marginTop="6dp"
+                android:text="Profile"
+                android:textColor="@color/accent"
+                android:textSize="11sp"
+                app:strokeColor="@color/accent"
+                app:cornerRadius="16dp" />
+
             <TextView
                 android:id="@+id/tvLogout"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
+                android:layout_marginTop="4dp"
                 android:text="Logout"
-                android:textColor="@color/accent"
-                android:textSize="12sp"
+                android:textColor="@color/white_70"
+                android:textSize="11sp"
                 android:textStyle="bold"
                 android:clickable="true"
                 android:focusable="true"
